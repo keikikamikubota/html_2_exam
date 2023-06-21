@@ -1,0 +1,84 @@
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  
+  body {
+    text-align: center;
+  }
+  
+  .main-header {
+    padding-bottom: 15%;
+    width: 100%;
+    background-size: cover;
+    background-image: url("../images/header.jpg");
+    background-attachment: fixed;
+  }
+  
+  /* ここから */
+  header {
+    height: 50px;
+    background-color: #2B2B2B;
+
+  }
+
+  header .left {
+    margin-right: 20px;
+    float: left;
+  }
+  
+  header .right {
+    margin-left: 20px;
+    float: right;
+  }
+  
+  header ul {
+    margin: 0; 
+    /* header上部の隙間があったので質問を参考に設定 */
+  }
+  
+  header ul a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  header li {
+    padding: 15px;
+    list-style: none;
+  }
+  
+  header ul:after {
+  }
+  /* ここまでがheader部分の実装 */
+  
+  .main-header img {
+  /* main画像（白い「Achieve」の文字の画像）部分の実装 */
+    width: 13%;
+  }
+
+  .main-header p {
+  top: 0%;
+  left: 0%;
+  transform: translate(-0%, +140%);
+  display: table-cell;
+  width: 13%;
+  }
+
+  .about {
+  /* About Achieve部分の実装 */
+  }
+  
+  /* ここから */
+  .function {
+  }
+  
+  .function-images {
+  }
+  
+  .function-image {
+  }
+  /* ここまでがfunction部分の実装 */
+  
+  footer {
+  /* footer部分の実装 */
+  }
